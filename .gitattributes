@@ -26,6 +26,8 @@ ProjectSettings/*.asset text
 
 # Exclude third-party plugins from GitHub stats
 Assets/Plugins/**       linguist-vendored
+Assets/TextMesh[[:space:]]Pro/**  linguist-vendored
+Assets/Unity[[:space:]]Technologies/**  linguist-vendored
 
 # Binaries
 **/Assets/**/*.png filter=lfs diff=lfs merge=lfs -text
